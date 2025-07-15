@@ -1,0 +1,10 @@
+半个水果:
+  name: 半个水果
+  title: Little-data
+  url: https://space.bilibili.com/357695126
+  image_url: /img/ico.jpg
+  page: true
+  description: 'Little-data是我存储数据使用的名称'
+  socials:
+    github: little-Data
+    bilibili: https://space.bilibili.com/357695126
