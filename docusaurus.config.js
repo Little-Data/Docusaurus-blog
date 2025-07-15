@@ -98,6 +98,11 @@ const config = {
             label: '往期文章',
             position: 'left',
           },
+          {
+            to:'/rss.xml',
+            label: 'Rss订阅',
+            position: 'left',
+          },
         ],
       },
     tableOfContents: {
