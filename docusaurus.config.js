@@ -148,9 +148,10 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['Java'],
+        additionalLanguages: ['Java','bash'],
       },
     }),
+    themes: ['@docusaurus/theme-live-codeblock'],
 };
 
 export default config;
