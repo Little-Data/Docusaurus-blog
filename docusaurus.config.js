@@ -37,7 +37,7 @@ const config = {
   },
 
 plugins: [
-    'docusaurus-plugin-image-viewer'
+    'docusaurus-plugin-zooming'
 ],
 
   presets: [
@@ -154,32 +154,19 @@ plugins: [
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['Java','bash'],
       },
-    imageViewer: {
-      // 图片选择器，默认为 img
-      imageSelector: 'img',
-      // 页面容器选择器，默认为 .theme-doc-markdown.markdown，只在这个容器里的图片
-      containerSelector: '#__blog-post-container.markdown',
-      // viewerjs 配置
-      // see: https://github.com/fengyuanchen/viewerjs/blob/main/README.md
-      options: {
-        toolbar: {
-          zoomIn: 4,
-          zoomOut: 4,
-          oneToOne: 4,
-          reset: 4,
-          prev: 0,
-          play: 0,
-          next: 0,
-          rotateLeft: 4,
-          rotateRight: 4,
-          flipHorizontal: 4,
-          flipVertical: 4,
+      zooming: {
+        selector: '#__blog-post-container.markdown img',
+        delay: 500,
+        background: {
+          light: 'rgba(101,108,133,0.8)',
+          dark: 'rgba(9,10,17,0.8)'
         },
-        navbar: false,
-        title: false,
-        fullscreen: false,
+        options: {
+          // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
+          enableGrab: true,
+          scaleExtra: 0.9,
+        }
       },
-    },
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
 };
