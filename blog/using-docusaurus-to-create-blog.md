@@ -2,7 +2,7 @@
 slug: using-docusaurus-to-create-blog
 title: 用 Docusaurus 创建属于自己的博客
 authors: 半个水果
-tags: [Docusaurus, blog, Node.js]
+tags: [Docusaurus, blog, Node.js, 教程]
 description: 用 Docusaurus 创建属于自己的博客
 date: 2025-07-16T13:34
 ---

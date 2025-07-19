@@ -1,0 +1,19 @@
+.mathnotesBlock {
+    border: 1px solid #4E9EEF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(189, 214, 238, 0.25);
+}
+
+.mathnotesBlock p:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    text-align: center;
+}

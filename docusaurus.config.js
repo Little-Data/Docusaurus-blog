@@ -36,6 +36,10 @@ const config = {
     locales: ['en', 'zh-Hans'],
   },
 
+plugins: [
+    'docusaurus-plugin-image-viewer'
+],
+
   presets: [
     [
       'classic',
@@ -150,6 +154,32 @@ const config = {
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['Java','bash'],
       },
+    imageViewer: {
+      // 图片选择器，默认为 img
+      imageSelector: 'img',
+      // 页面容器选择器，默认为 .theme-doc-markdown.markdown，只在这个容器里的图片
+      containerSelector: '#__blog-post-container.markdown',
+      // viewerjs 配置
+      // see: https://github.com/fengyuanchen/viewerjs/blob/main/README.md
+      options: {
+        toolbar: {
+          zoomIn: 4,
+          zoomOut: 4,
+          oneToOne: 4,
+          reset: 4,
+          prev: 0,
+          play: 0,
+          next: 0,
+          rotateLeft: 4,
+          rotateRight: 4,
+          flipHorizontal: 4,
+          flipVertical: 4,
+        },
+        navbar: false,
+        title: false,
+        fullscreen: false,
+      },
+    },
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
 };
