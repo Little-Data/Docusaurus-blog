@@ -56,7 +56,7 @@ plugins: [
           // Remove this to remove the "edit this page" links.
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
+          onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'warn',
           routeBasePath: '/',
           blogSidebarCount: 0,
@@ -152,7 +152,7 @@ plugins: [
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        additionalLanguages: ['Java','bash'],
+        additionalLanguages: ['Java','bash','PowerShell'],
       },
       zooming: {
         selector: '#__blog-post-container.markdown img',
