@@ -147,7 +147,7 @@ plugins: [
           ],
           },
         ],
-        copyright: `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> Built with Docusaurus`,
+        copyright: `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> Built with Docusaurus This site is powered by <a href="https://www.netlify.com">Netlify</a>`,
       },
       prism: {
         theme: prismThemes.github,
