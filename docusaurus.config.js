@@ -26,20 +26,17 @@ const config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    defaultLocale: 'zh',
+    locales: ['zh'],
   },
-
-plugins: [
+  plugins: [
     'docusaurus-plugin-zooming'
-],
-
+  ],
   presets: [
     [
       'classic',
@@ -47,18 +44,15 @@ plugins: [
       ({
         docs: false,
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
-          onInlineAuthors: 'ignore',
+          onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-          routeBasePath: '/',
           blogSidebarCount: 0,
           showLastUpdateTime:true,
         },
@@ -72,6 +66,11 @@ plugins: [
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // Replace with your project's social card
+      image: 'img/ico.jpg',
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       announcementBar: {
         id: 'follow_me',
         content: '⭐️ 如果这个网站能帮助到你，欢迎关注！  <a target="_blank" rel="noopener noreferrer" href="https://github.com/little-Data">GitHub</a>  |  <a target="_blank" rel="noopener noreferrer" href="https://space.bilibili.com/357695126">Bilibili</a>',
@@ -153,19 +152,6 @@ plugins: [
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
         additionalLanguages: ['Java','bash','PowerShell'],
-      },
-      zooming: {
-        selector: '#__blog-post-container.markdown img',
-        delay: 500,
-        background: {
-          light: 'rgba(101,108,133,0.8)',
-          dark: 'rgba(9,10,17,0.8)'
-        },
-        options: {
-          // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
-          enableGrab: true,
-          scaleExtra: 0.9,
-        }
       },
     }),
     themes: ['@docusaurus/theme-live-codeblock'],
