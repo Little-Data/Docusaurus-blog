@@ -180,11 +180,13 @@ sudo chown -R www-data:www-data /var/www/html/dokuwiki
 
 找到文件里下面的内容：
 
-```autoconf
+```autoconf title='apache2.conf'
 <Directory /var/www/>
 
 Options Indexes FollowSymLinks
+// highlight-next-line
 AllowOverride None
+// highlight-next-line
 Require all denied
 
 </Directory>
@@ -221,7 +223,7 @@ a2enmod ssl
 
 修改`default-ssl.conf`文件：
 
-```autoconf
+```autoconf title='default-ssl.conf'
 DocumentRoot /var/www/html/dokuwiki     #你的网站目录
 
 SSLCertificateFile      /xxx/xxx/xxx.cer       #证书目录，后缀名可以是.crt等

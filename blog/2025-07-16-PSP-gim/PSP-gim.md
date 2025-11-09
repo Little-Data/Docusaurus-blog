@@ -95,7 +95,7 @@ unlisted: false
 
 ### 万能二进制提取.py
 
-[我的Wiki](https://wiki.little-data.eu.org/zh/Gametoolkit/Python_scripts#万能二进制提取)
+[Gametoolkit](https://little-data.github.io/Gametoolkit/docs/wikijs/Python_scripts2#万能二进制提取)
 
 ### Noesis
 

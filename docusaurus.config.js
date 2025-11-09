@@ -127,8 +127,8 @@ const config = {
                 href: 'https://space.bilibili.com/357695126',
               },
               {
-                label: 'Wiki',
-                href: 'https://wiki.little-data.eu.org',
+                label: 'Gametoolkit',
+                href: 'https://little-data.github.io/Gametoolkit',
               },
               {
                 label: '关于本站',
