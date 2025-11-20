@@ -2,7 +2,7 @@
 slug: prohibiting_the_execution_of_yarn_scripts
 title: 解决yarn被系统禁止运行
 authors: 半个水果
-tags: [Windows, npm, yarn]
+tags: [Windows, npm, yarn, 教程]
 description: 解决使用PowerShell时yarn被系统禁止运行的问题
 hide_table_of_contents: false
 date: 2025-11-09T15:06

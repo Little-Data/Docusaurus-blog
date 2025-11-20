@@ -2,7 +2,7 @@
 slug: Win11_reverts_to_the_classic_right-click_menu
 title: Win11恢复经典右键菜单
 authors: 半个水果
-tags: [Windows, 注册表]
+tags: [Windows, 注册表, 教程]
 description: Win11恢复经典右键菜单
 hide_table_of_contents: false
 date: 2025-11-09T01:43

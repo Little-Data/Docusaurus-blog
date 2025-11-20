@@ -2,7 +2,7 @@
 slug: Win_removes_the_shortcut_suffix
 title: Win去掉创建快捷方式时的「-快捷方式」后缀
 authors: 半个水果
-tags: [Windows, 注册表]
+tags: [Windows, 注册表, 教程]
 description: Win去掉创建快捷方式时的「-快捷方式」后缀
 hide_table_of_contents: false
 date: 2025-11-09T01:36

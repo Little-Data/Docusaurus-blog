@@ -17,7 +17,7 @@ authors:
     socials:
       github: VVsxmja
 
-tags: [插件, giscus, docusaurus]
+tags: [插件, giscus, docusaurus, 教程]
 description: 为Docusaurus文档页增加giscus评论功能
 hide_table_of_contents: false
 date: 2025-11-17T00:56

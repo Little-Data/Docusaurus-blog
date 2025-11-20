@@ -2,7 +2,7 @@
 slug: Display_Windows_logon_process_details
 title: 显示Windows登录过程详细信息
 authors: 半个水果
-tags: [Windows, 注册表]
+tags: [Windows, 注册表, 教程]
 description: 显示Windows登录过程详细信息
 hide_table_of_contents: false
 date: 2025-11-09T01:32

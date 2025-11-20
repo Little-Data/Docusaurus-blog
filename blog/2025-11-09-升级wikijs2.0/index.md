@@ -2,7 +2,7 @@
 slug: update_wikijs2_0
 title: 升级Wiki.js2.0
 authors: 半个水果
-tags: [服务器]
+tags: [服务器, 教程]
 description: 升级Wiki.js2.0
 hide_table_of_contents: false
 date: 2025-11-09T14:53

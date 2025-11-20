@@ -2,7 +2,7 @@
 slug: Install_Dokuwki_on_Debian_12
 title: 在Debian 12上安装Dokuwki（使用Apache服务）
 authors: 半个水果
-tags: [服务器]
+tags: [服务器, 教程]
 description: 在Debian 12上安装Dokuwki（使用Apache服务）
 hide_table_of_contents: false
 date: 2025-11-09T01:46

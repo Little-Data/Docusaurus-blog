@@ -2,7 +2,7 @@
 slug: Windows_cant_complete_the_installation
 title: Windows无法完成安装。若要在此计算机上安装windows，请重新启动安装
 authors: 半个水果
-tags: [Windows]
+tags: [Windows, 教程]
 description: Windows无法完成安装。若要在此计算机上安装windows，请重新启动安装
 hide_table_of_contents: false
 date: 2025-11-09T01:39
