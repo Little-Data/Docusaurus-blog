@@ -48,7 +48,7 @@ const config = {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
-            xslt: true,
+            xslt: false,
           },
           onInlineTags: 'ignore',
           onInlineAuthors: 'ignore',
