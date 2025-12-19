@@ -49,6 +49,7 @@ const config = {
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: false,
+            limit: 15,
           },
           onInlineTags: 'ignore',
           onInlineAuthors: 'ignore',
