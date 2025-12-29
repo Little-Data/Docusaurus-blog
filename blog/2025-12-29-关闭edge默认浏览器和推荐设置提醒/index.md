@@ -34,3 +34,9 @@ Windows Registry Editor Version 5.00
 ```
 
 保存，之后将`txt`后缀改为`reg`，双击打开，确定合并即可
+
+再次打开浏览器，出现“由你的组织管理”字样说明配置生效
+
+## 参考资料
+
+[Microsoft Edge - 策略](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-policies)
