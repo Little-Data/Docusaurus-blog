@@ -16,7 +16,13 @@ hide_comment: false
 
 升级过程其实很简单<span class="heimu" title="你知道的太多了">于我而言</span>，借助[npm-check-updates](/npm_packages_update_management)即可升级。更新日志可在这里找到[Docusaurus 3.10](https://docusaurus.io/zh-CN/blog/releases/3.10)
 
-升级之后运行测试时大概率会遇到下面情况：
+升级后先别急着运行测试，先安装一个必须组件：
+
+```shell
+npm install @docusaurus/faster
+```
+
+运行测试时大概率会遇到下面情况：
 
 ```text showLineNumbers
   × Module build failed (from ./node_modules/@docusaurus/plugin-content-blog/lib/markdownLoader.js):
