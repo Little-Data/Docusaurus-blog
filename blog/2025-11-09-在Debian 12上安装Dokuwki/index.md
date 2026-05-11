@@ -11,7 +11,7 @@ unlisted: false
 
 安装Dokuwki（使用Apache服务）
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 本文要点
 

@@ -12,7 +12,7 @@ hide_comment: false
 
 DBeaver是一个开源免费的数据库管理软件，支持很多种数据库类型。
 
-<!-- truncate -->
+{/* truncate */}
 
 下面是我遇到的一些问题及解决方法。
 

@@ -10,7 +10,7 @@ date: 2025-11-20T19:08
 
 LibreOffice 想单独为特定一页或几页设置不同的页眉或页脚，按照微软Office的方法是不行的。本文同样适用于Openoffice
 
-<!-- truncate -->
+{/* truncate */}
 
 LibreOffice Writer 的逻辑是靠“不同页面样式 + 手动分页符”实现页码独立，因为页眉页脚是绑定页面样式的，不同样式就不会互相影响。
 

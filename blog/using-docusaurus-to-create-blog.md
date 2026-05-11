@@ -9,7 +9,7 @@ date: 2025-07-16T13:34
 
 Docusaurus 提供了简洁直观的用户界面、强大的代码块展示功能、活跃的社区支持以及丰富的插件生态，加上由 Meta（原 Facebook）维护的背景，支持 markdown 文档，所以我选用了它。
 
-<!-- truncate -->
+{/* truncate */}
 
 ## Docusaurus 简介
 

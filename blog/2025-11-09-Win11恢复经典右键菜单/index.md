@@ -11,7 +11,7 @@ unlisted: false
 
 **此操作会重启资源管理器，注意保存工作！**
 
-<!-- truncate -->
+{/* truncate */}
 
 按Win+r打开运行，输入：
 

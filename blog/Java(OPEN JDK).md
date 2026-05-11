@@ -11,7 +11,7 @@ unlisted: false
 
 还在苦苦寻找Java吗？是不是只能找到Java 8？为什么下个Java要收费？
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

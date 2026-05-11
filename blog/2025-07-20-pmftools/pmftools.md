@@ -11,7 +11,7 @@ unlisted: false
 
 pmftools 简单使用，将pmf文件转换为MP4文件
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

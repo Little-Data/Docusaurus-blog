@@ -30,7 +30,7 @@ date: 2025-11-17T00:56
 
 </details>
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 安装依赖
 

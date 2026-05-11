@@ -11,7 +11,7 @@ unlisted: false
 
 eclipse是用来编写Java相关的开源IDE，很受广大群众欢迎。本文根据我的使用体验编写
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 自动补全
 

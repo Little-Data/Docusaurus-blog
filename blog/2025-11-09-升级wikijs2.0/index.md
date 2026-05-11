@@ -13,7 +13,7 @@ unlisted: false
 前排提示：本文使用SQLite数据库，且数据有备份（如同步到Github）
 :::
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 备份配置文件
 

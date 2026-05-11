@@ -11,7 +11,7 @@ unlisted: false
 
 按<kbd>Win</kbd>+<kbd>r</kbd>打开运行，输入`regedit`
 
-<!-- truncate -->
+{/* truncate */}
 
 定位到以下路径：
 

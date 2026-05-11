@@ -11,7 +11,7 @@ unlisted: false
 
 解决Win11无法以管理员权限开机自启软件，带盾牌图标软件无法开机自启
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

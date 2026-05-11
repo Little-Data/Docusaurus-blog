@@ -11,7 +11,7 @@ unlisted: false
 
 关闭Bitlocker，以免在系统异常或未知的硬件问题导致加密的数据无法解密。Bitlocker对于普通人来说没有多大作用，甚至会带来负优化，建议关闭。
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 在 Windows 11 上禁用 BitLocker 设备加密
 

@@ -11,7 +11,7 @@ unlisted: false
 
 Astrofox简单教程
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

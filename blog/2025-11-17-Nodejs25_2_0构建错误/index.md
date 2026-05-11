@@ -10,7 +10,7 @@ date: 2025-11-17T23:15
 
 使用 Node.js 25.2.0 时构建Docusaurus出现错误，官方已在新版本中修复
 
-<!-- truncate -->
+{/* truncate */}
 
 最近使用 Node.js 25.2.0 时出现像下面的错误：
 

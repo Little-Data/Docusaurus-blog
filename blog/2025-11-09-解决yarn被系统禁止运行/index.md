@@ -11,7 +11,7 @@ unlisted: false
 
 在 Windows 系统中运行 Yarn 时，可能会遇到以下错误提示：无法加载文件 yarn.ps1，因为在此系统上禁止运行脚本。这是由于 PowerShell 的执行策略限制导致的。
 
-<!-- truncate -->
+{/* truncate */}
 
 ## 以管理员身份运行PowerShell
 

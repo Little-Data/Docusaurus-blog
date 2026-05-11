@@ -12,7 +12,7 @@ hide_comment: false
 
 使用npm-check-updates来轻松升级npm包。
 
-<!-- truncate -->
+{/* truncate */}
 
 [官方仓库/文档](https://github.com/raineorshine/npm-check-updates)
 

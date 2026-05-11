@@ -11,7 +11,7 @@ unlisted: false
 
 DkZStudio 简单使用，处理一些PSP游戏镜像
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

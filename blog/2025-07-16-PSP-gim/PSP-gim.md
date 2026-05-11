@@ -11,7 +11,7 @@ unlisted: false
 
 有些小伙伴遇到解包出来后没有后缀名，不知所措。现在我来试着分析一下该格式。
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>

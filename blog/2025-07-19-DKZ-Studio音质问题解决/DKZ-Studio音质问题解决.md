@@ -11,7 +11,7 @@ unlisted: false
 
 解决经过DKZ Studio处理后的音频声音过小的问题。
 
-<!-- truncate -->
+{/* truncate */}
 
 <details>
 <summary>关于该文章......</summary>
