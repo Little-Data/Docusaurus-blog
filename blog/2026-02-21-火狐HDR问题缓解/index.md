@@ -9,6 +9,7 @@ date: 2026-02-21T00:28
 unlisted: false
 hide_comment: false
 ---
+
 {/* truncate */}
 
 在`about:config`里面，设置这几项应该会好一些
