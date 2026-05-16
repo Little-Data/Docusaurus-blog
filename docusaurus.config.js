@@ -79,6 +79,22 @@ const config = {
         textColor: '#091E42',
         isCloseable: true,
       },
+      algolia: {
+        appId: 'WGY6YEG3SC',
+        apiKey: 'f469731471bf9b84c80f49f5536312ba',
+        indexName: '搜索爬虫',
+        contextualSearch: true,
+        externalUrlRegex: 'external\\.com|domain\\.com',
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+        searchPagePath: 'search',
+        maxResultsPerGroup: 7,
+        recentSearchesLimit: 7,
+        recentSearchesWithFavoritesLimit: 5,
+        keyboardShortcuts: { 'Ctrl/Cmd+K': false, '/': false },
+      },
       navbar: {
         hideOnScroll: true,
         title: '半个水果博客',
