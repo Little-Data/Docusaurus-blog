@@ -2,7 +2,7 @@
 slug: use_new_nodejs_version_in_linux_debian
 title: linux 使用高版本 nodejs(debian)
 authors: 半个水果
-tags: [linux, Node.js, debian]
+tags: [linux, Node.js, debian, 教程]
 description: linux 使用高版本 nodejs(debian)，自带软件源版本过低
 hide_table_of_contents: false
 date: 2026-05-14T02:23

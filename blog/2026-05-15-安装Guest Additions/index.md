@@ -2,7 +2,7 @@
 slug: install_VirtualBox_Guest_Additions_in_linux_debian
 title: linux 安装 VirtualBox Guest Additions(debian)
 authors: 半个水果
-tags: [linux, VirtualBox, debian, 虚拟机]
+tags: [linux, VirtualBox, debian, 虚拟机, 教程]
 description: linux 使用自带的 ISO 文件来安装 VirtualBox Guest Additions
 hide_table_of_contents: false
 date: 2026-05-15T00:06

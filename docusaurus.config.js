@@ -35,7 +35,8 @@ const config = {
     locales: ['zh-Hans'],
   },
   plugins: [
-    'docusaurus-plugin-zooming'
+    'docusaurus-plugin-zooming',
+    './plugins/quiz-plugin',
   ],
   presets: [
     [
