@@ -120,6 +120,11 @@ const config = {
             position: 'left',
           },
           {
+            href:'https://exam.little-data.top',
+            label: '测验库',
+            position: 'left',
+          },
+          {
             href:'https://little-data.eu.org/rss.xml',
             label: 'Rss订阅',
             position: 'left',
