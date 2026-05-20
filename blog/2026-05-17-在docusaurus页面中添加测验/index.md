@@ -66,3 +66,26 @@ hide_comment: false
     <Jiexi>useReducer 是 useState 的替代方案，适用于复杂状态逻辑。</Jiexi>
   </Workitem>
 </Workpaper>
+
+## 你知道吗？
+
+在编写这个插件时遇到了一个问题：
+
+在页面上手动勾选后，展开/收起解析按钮会变为可用，这是正常的。
+
+但到页面刷新后，Chromium 和 Firefox 的表现有所不同。
+
+假设你已经设置好不直接显示答案或解析，在未勾选之前展开/收起解析按钮是不可用状态。
+
+但你勾选并刷新页面后，勾选状态会回到设置好的不勾选状态，但在 Firefox 上展开/收起解析按钮依然是可用状态，而 Chromium 是正常的不可用状态。
+
+相关的 BUG 在[这里](https://bugzilla.mozilla.org/show_bug.cgi?id=654072)可以找到。
+
+简单描述一下：
+
+1. 用户在页面 A 勾选了"直接显示答案" → 按钮变为 `enabled`
+2. 刷新页面 → Firefox 从 session restore 恢复按钮为 `enabled`
+3. React hydrate 时，虽然 props 传递了 disabled=true，但 Firefox 的 session restore 覆盖了 DOM 属性（即 button 中没有 `disabled` 属性）
+4. 结果：复选框显示未勾选（React 控制），但按钮仍保持 `enabled`（Firefox 恢复）
+
+因此，为解决该问题，在 React 渲染完成后，强制同步 DOM 属性，覆盖 Firefox 的 session restore 操作。
