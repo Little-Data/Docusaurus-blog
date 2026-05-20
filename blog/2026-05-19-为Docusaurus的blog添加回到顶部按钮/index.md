@@ -6,6 +6,8 @@ tags: [docusaurus, 教程, npm]
 description: 在 Docusaurus 的 Blog 页面中添加回到顶部按钮，官方不愿添加的功能
 hide_table_of_contents: false
 date: 2026-05-19T01:39
+last_update:
+  date: 2026-05-19T22:30
 unlisted: false
 hide_comment: false
 ---

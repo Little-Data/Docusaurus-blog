@@ -6,6 +6,8 @@ tags: [docusaurus, 教程]
 description: 在 Docusaurus 页面中添加测验
 hide_table_of_contents: false
 date: 2026-05-17T22:49
+last_update:
+  date: 2026-05-21T23:30
 unlisted: false
 hide_comment: false
 ---

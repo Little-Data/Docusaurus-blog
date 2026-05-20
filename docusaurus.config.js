@@ -56,7 +56,7 @@ const config = {
           onInlineAuthors: 'ignore',
           onUntruncatedBlogPosts: 'ignore',
           blogSidebarCount: 0,
-          showLastUpdateTime:true,
+          showLastUpdateTime: true,
         },
         theme: {
           customCss: './src/css/custom.css',
