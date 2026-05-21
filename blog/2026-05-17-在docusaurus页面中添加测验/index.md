@@ -7,7 +7,7 @@ description: 在 Docusaurus 页面中添加测验
 hide_table_of_contents: false
 date: 2026-05-17T22:49
 last_update:
-  date: 2026-05-21T23:30
+  date: 2026-05-22T02:36
 unlisted: false
 hide_comment: false
 ---
@@ -66,6 +66,11 @@ hide_comment: false
     <Wenben>React 中用于管理复杂状态逻辑的 Hook 是？</Wenben>
     <Ansinput />
     <Jiexi>useReducer 是 useState 的替代方案，适用于复杂状态逻辑。</Jiexi>
+  </Workitem>
+  <Workitem tiankong>
+    <Wenben>试试 KaTeX 数学公式代码！ `$F(x)=\int_{a}^{x} f(t)\,dt$`</Wenben>
+    <Ansinput katex />
+    <Jiexi>$F(x)=\int_{a}^{x} f(t)\,dt$</Jiexi>
   </Workitem>
 </Workpaper>
 
