@@ -37,8 +37,8 @@ const config = {
     locales: ['zh-Hans'],
   },
   plugins: [
-    'docusaurus-plugin-zooming',
     './plugins/quiz-plugin',
+    './plugins/image-viewer',
   ],
   presets: [
     [
@@ -90,6 +90,14 @@ const config = {
       image: 'img/ico.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
+      },
+      imageViewer: {
+        scale: 1.8,
+        enableWheelZoom: true,
+        containerSelector: 'article',
+        minScale: 0.5,
+        maxScale: Infinity,
+        wheelStep: 0.25,
       },
       announcementBar: {
         id: 'follow_me',
