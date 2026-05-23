@@ -95,6 +95,7 @@ const config = {
         scale: 1.8,
         enableWheelZoom: true,
         containerSelector: 'article',
+        excludeSelector: '.avatar',
         minScale: 0.5,
         maxScale: Infinity,
         wheelStep: 0.25,
