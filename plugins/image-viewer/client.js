@@ -26,9 +26,23 @@ if (typeof window !== 'undefined') {
   let shouldExclude = null;
 
   if (EXCLUDE_SELECTOR) {
-    const selectors = Array.isArray(EXCLUDE_SELECTOR) ? EXCLUDE_SELECTOR : [EXCLUDE_SELECTOR];
+    let rawSelectors = [];
+    if (Array.isArray(EXCLUDE_SELECTOR)) {
+      rawSelectors = EXCLUDE_SELECTOR;
+    } else if (typeof EXCLUDE_SELECTOR === 'string') {
+      rawSelectors = EXCLUDE_SELECTOR.split(',').map(s => s.trim()).filter(s => s);
+    } else {
+      rawSelectors = [String(EXCLUDE_SELECTOR)];
+    }
+    
     shouldExclude = (img) => {
-      return selectors.some(sel => img.matches(sel) || img.closest(sel));
+      return rawSelectors.some(sel => {
+        try {
+          return img.matches(sel) || img.closest(sel);
+        } catch (e) {
+          return false;
+        }
+      });
     };
   } else {
     shouldExclude = () => false;
