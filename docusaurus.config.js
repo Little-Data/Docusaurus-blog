@@ -170,7 +170,7 @@ const config = {
         style: 'light',
         links: [
           {
-            title: ' ',
+            title: '其它链接',
             items: [
               {
                 label: '哔哩哔哩',
@@ -185,15 +185,44 @@ const config = {
                 to: '/about',
               },
             ],
-            },
-            {
-          title: '友情链接',
-          items: [
-            {
-              label: 'UID:210298091',
-              href: 'https://space.bilibili.com/210298091',
-            },
-          ],
+          },
+          {
+            title: '友情链接',
+            items: [
+              {
+                label: 'UID:210298091',
+                href: 'https://space.bilibili.com/210298091',
+              },
+            ],
+          },
+          {
+            title: '实用工具',
+            items: [
+              {
+                label: 'PDF 工具箱',
+                href: 'https://dwaz.top/pd',
+              },
+              {
+                label: 'Office 在线编辑',
+                href: 'https://dwaz.top/of',
+              },
+              {
+                label: '在线绘图',
+                href: 'https://dwaz.top/huitu',
+              },
+              {
+                label: 'LaTeX 公式可视化编辑',
+                href: 'https://dwaz.top/gs',
+              },
+              {
+                label: '在线音频编辑',
+                href: 'https://dwaz.top/au',
+              },
+              {
+                label: 'BrowseryTools',
+                href: 'https://dwaz.top/tool',
+              },
+            ],
           },
         ],
         copyright: `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> Built with Docusaurus This site is powered by <a href="https://www.netlify.com">Netlify</a>`,
