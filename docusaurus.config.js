@@ -222,6 +222,14 @@ const config = {
                 label: 'BrowseryTools',
                 href: 'https://dwaz.top/tool',
               },
+              {
+                label: '邮件',
+                href: 'https://dwaz.top/mail',
+              },
+              {
+                label: '云盘',
+                href: 'https://dwaz.top/pan',
+              },
             ],
           },
         ],
