@@ -6,6 +6,8 @@ tags: [eclipse, Java]
 description: eclipse相关配置，优化使用体验
 hide_table_of_contents: false
 date: 2025-11-09T15:43
+last_update:
+  date: 2026-06-08T21:49
 unlisted: false
 ---
 
@@ -44,6 +46,25 @@ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
 ## 高分辨率界面缩放
+
+:::warning
+
+该部分的配置仅适用于 2026 以下版本，最新版本使用会**导致无法启动！**
+
+最新版本调整为：
+
+```ini title='eclipse.ini'
+...（省略了其它内容）
+-vmargs
+// highlight-start
+-Dswt.autoScale=exact   # 可选 quarter
+// highlight-end
+...（省略了其它内容）
+```
+
+但实际使用情况是界面大小基本没变，自己决定是否添加。
+
+:::
 
 使用高分辨率（如4K屏）时会遇到界面或图标变小，可通过在`eclipse.ini`文件中`-vmargs`部分添加几行解决：
 
