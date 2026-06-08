@@ -230,6 +230,10 @@ const config = {
                 label: '云盘',
                 href: 'https://dwaz.top/pan',
               },
+              {
+                label: '在线键盘',
+                href: 'https://dwaz.top/kb',
+              },
             ],
           },
         ],
