@@ -1,11 +1,13 @@
 ---
-slug: install_VirtualBox_Guest_Additions_in_linux_debian
-title: linux 安装 VirtualBox Guest Additions(debian)
+slug: install_VirtualBox_Guest_Additions_in_linux
+title: linux 安装 VirtualBox Guest Additions
 authors: 半个水果
-tags: [linux, VirtualBox, debian, 虚拟机, 教程]
+tags: [linux, VirtualBox, debian, CentOS,虚拟机, 教程]
 description: linux 使用自带的 ISO 文件来安装 VirtualBox Guest Additions
 hide_table_of_contents: false
 date: 2026-05-15T00:06
+last_update:
+  date: 2026-06-24T22:38
 unlisted: false
 hide_comment: false
 ---
@@ -16,16 +18,32 @@ linux 使用自带的 ISO 文件来安装 VirtualBox Guest Additions
 
 ## 准备
 
-检查更新并安装：
+### 检查更新并安装
+
+Debian 系列：
 
 ```SHELL
 sudo apt update && apt upgrade
 ```
 
-安装必要库：
+CentOS 9：
+
+```shell
+sudo yum update -y
+```
+
+### 安装必要库
+
+Debian 系列：
 
 ```SHELL
 sudo apt install build-essential module-assistant dkms
+```
+
+CentOS 9：
+
+```shell
+sudo yum install -y epel-release gcc make perl kernel-devel kernel-headers dkms bzip2
 ```
 
 :::note[　]
@@ -77,3 +95,5 @@ systemctl status vboxadd-service  # 或 vboxservice（取决于版本）
 [VirtualBox Linux 增强功能（Guest Additions）完全指南：安装、配置与最佳实践](https://geek-blogs.com/blog/vbox-linux-additions)
 
 [如何在 Debian 上逐步安装 Virtualbox Guest Additions](https://cn.linux-terminal.com/?p=3818)
+
+[如何在CentOS VirtualBox中安装Guest Additions](https://www.yisu.com/ask/32510148.html)
