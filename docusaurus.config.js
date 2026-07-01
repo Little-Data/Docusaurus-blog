@@ -39,6 +39,7 @@ const config = {
   plugins: [
     './plugins/quiz-plugin',
     './plugins/image-viewer',
+    './plugins/toc-mobile'
   ],
   presets: [
     [
@@ -60,7 +61,7 @@ const config = {
           blogSidebarCount: 0,
           showLastUpdateTime: true,
           remarkPlugins: [remarkMath],
-          rehypePlugins: [rehypeKatex],
+          rehypePlugins: [[rehypeKatex, { strict: false }]],
         },
         theme: {
           customCss: './src/css/custom.css',
