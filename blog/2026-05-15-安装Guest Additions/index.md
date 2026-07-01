@@ -7,7 +7,7 @@ description: linux 使用自带的 ISO 文件来安装 VirtualBox Guest Addition
 hide_table_of_contents: false
 date: 2026-05-15T00:06
 last_update:
-  date: 2026-06-24T22:38
+  date: 2026-07-01T23:55
 unlisted: false
 hide_comment: false
 ---
@@ -42,8 +42,16 @@ sudo apt install build-essential module-assistant dkms
 
 CentOS 9：
 
+先安装 `epel` 库：
+
 ```shell
-sudo yum install -y epel-release gcc make perl kernel-devel kernel-headers dkms bzip2
+sudo yum install -y epel-release
+```
+
+再安装其它软件包：
+
+```shell
+sudo yum install -y gcc make perl kernel-devel kernel-headers dkms bzip2
 ```
 
 :::note[　]
