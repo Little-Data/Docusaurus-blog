@@ -7,7 +7,7 @@ description: linux 使用自带的 ISO 文件来安装 VirtualBox Guest Addition
 hide_table_of_contents: false
 date: 2026-05-15T00:06
 last_update:
-  date: 2026-07-01T23:55
+  date: 2026-07-02T03:13
 unlisted: false
 hide_comment: false
 ---
@@ -15,6 +15,10 @@ hide_comment: false
 linux 使用自带的 ISO 文件来安装 VirtualBox Guest Additions
 
 {/* truncate */}
+
+:::warning
+安装之前最好创建一个快照，出现问题后还可以退回！
+:::
 
 ## 准备
 
@@ -52,6 +56,12 @@ sudo yum install -y epel-release
 
 ```shell
 sudo yum install -y gcc make perl kernel-devel kernel-headers dkms bzip2
+```
+
+如果新版出现问题，退回旧版后使用下面命令：
+
+```shell
+sudo yum install -y gcc make perl kernel-core-$(uname -r) kernel-devel-$(uname -r) kernel-devel-matched-$(uname -r) kernel-modules-core-$(uname -r) kernel-headers-$(uname -r) dkms bzip2
 ```
 
 :::note[　]
@@ -98,7 +108,7 @@ systemctl status vboxadd-service  # 或 vboxservice（取决于版本）
 
 ## 参考
 
-[How to Install VirtualBox Guest Additions on Debian](https://linuxcapable.com/how-to-install-node-js-on-debian-linux)
+[How to Install VirtualBox Guest Additions on Debian](https://linuxsimply.com/linux-basics/os-installation/virtual-machine/virtualbox-guest-additions-debian)
 
 [VirtualBox Linux 增强功能（Guest Additions）完全指南：安装、配置与最佳实践](https://geek-blogs.com/blog/vbox-linux-additions)
 
