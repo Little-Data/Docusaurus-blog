@@ -1,11 +1,13 @@
 ---
 slug: turn_off_msedge_recommendations
-title: 关闭edge默认浏览器和推荐设置提醒
+title: 关闭edge默认浏览器、推荐设置和不再支持提醒
 authors: 半个水果
 tags: [微软, 注册表, Microsoft Edge]
-description: 关闭edge默认浏览器、推荐设置提醒，防止时不时收到烦人的提示
+description: 关闭edge默认浏览器、推荐设置和不再支持提醒，防止时不时收到烦人的提示
 hide_table_of_contents: false
 date: 2025-12-29T00:39
+last_update:
+  date: 2026-07-03T20:08
 unlisted: false
 hide_comment: false
 ---
@@ -13,6 +15,8 @@ hide_comment: false
 如果不将微软Edge浏览器设为默认，后续打开时总会有提醒设为默认浏览器，接受推荐的设置。
 
 {/* truncate */}
+
+## 关闭默认浏览器、推荐设置提醒
 
 你是否遇到过下面的提示？
 
@@ -35,8 +39,30 @@ Windows Registry Editor Version 5.00
 
 保存，之后将`txt`后缀改为`reg`，双击打开，确定合并即可
 
+## 关闭不再支持提醒
+
+```text showLineNumbers
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+"SuppressUnsupportedOSWarning"=dword:00000001
+```
+
+:::note
+Google Chrome 浏览器可用：
+
+```text showLineNumbers
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Google\Chrome]
+"SuppressUnsupportedOSWarning"=dword:00000001
+```
+:::
+
 再次打开浏览器，出现“由你的组织管理”字样说明配置生效
 
 ## 参考资料
 
 [Microsoft Edge - 策略](https://learn.microsoft.com/zh-cn/deployedge/microsoft-edge-policies)
+
+[Chrome Enterprise policy list](https://chromeenterprise.google/policies)
