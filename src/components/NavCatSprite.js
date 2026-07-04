@@ -5,6 +5,15 @@ const SPRITE_SRC = '/img/cat-sprites.png';
 const FRAME_SIZE = 48;
 
 export default function NavCatSprite() {
+  // 服务端渲染时返回占位容器
+  if (typeof window === 'undefined') {
+    return (
+      <div className="nav-cat-sprite-container">
+        <canvas className="nav-cat-sprite-canvas" aria-hidden="true" />
+      </div>
+    );
+  }
+
   const canvasRef = useRef(null);
   const imgRef = useRef(null);
 
