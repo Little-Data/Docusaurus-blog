@@ -1,0 +1,31 @@
+.nav-cat-sprite-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  pointer-events: none;
+  z-index: 199;
+  overflow: visible;
+}
+
+.nav-cat-sprite-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+@media (max-width: 768px) {
+  .nav-cat-sprite-container {
+    height: 100%;
+  }
+}

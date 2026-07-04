@@ -81,6 +81,12 @@ span.heimu:hover a.extiw:visited {
   color: #d1c4e9
 }
 
+.navbar-sidebar,
+.navbar-sidebar--shown {
+  position: fixed !important;
+  z-index: 200 !important;
+}
+
 /* ----- 页脚定位 ----- */
 .theme-layout-footer.footer {
   position: relative !important;

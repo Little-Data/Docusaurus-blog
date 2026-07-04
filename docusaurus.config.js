@@ -238,7 +238,7 @@ const config = {
             ],
           },
         ],
-        copyright: `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> Built with Docusaurus This site is powered by <a href="https://www.netlify.com">Netlify</a>`,
+        copyright: `<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA</a> Built with Docusaurus This site is powered by <a href="https://www.netlify.com">Netlify</a><br />Cat Sprites made by <a href="https://cupnooble.itch.io/">Cup Nooble</a>`,
       },
       prism: {
         theme: prismThemes.github,
