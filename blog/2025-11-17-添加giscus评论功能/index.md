@@ -26,7 +26,7 @@ date: 2025-11-17T00:56
 <details>
 <summary>关于该文章...</summary>
 
-该文章整合了其它方法，但大部分内容是来自imroc的，其余内容可看[参考资料](#参考资料)
+该文章整合了其它方法，但大部分内容是来自imroc的，其余内容可看[参考资料](/add-giscus-to-docusaurus#参考资料)
 
 </details>
 

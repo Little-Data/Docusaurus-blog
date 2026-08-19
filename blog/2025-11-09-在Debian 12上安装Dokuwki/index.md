@@ -143,7 +143,7 @@ Languages可以只选`zh - 中文`。建议勾选`Upgrade Plugin`方便后续升
 
 ### 配置DokuWiki
 
-使用[WinSCP](#使用WinSCP作为ftp客户端)将压缩包上传至`/root`目录。
+使用[WinSCP](#使用winscp作为ftp客户端)将压缩包上传至`/root`目录。
 
 用命令解压：
 
