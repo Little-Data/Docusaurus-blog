@@ -7,7 +7,7 @@ description: 解决一些如小数字键盘、界面缩放、Java安装等问题
 hide_table_of_contents: false
 date: 2026-08-16T21:54
 last_update:
-  date: 2026-08-19T15:46
+  date: 2026-09-03T01:22
 unlisted: false
 hide_comment: false
 ---
@@ -25,6 +25,17 @@ hide_comment: false
 ```bash
 sudo apt install fcitx5 fcitx5-chinese-addons
 ```
+## 鼠标移动缓慢、鼠标无法滚动等问题
+
+:::tip
+像这类问题不能一概而论，如果下面的方法不管用则另寻它法。
+:::
+
+使用命令修改：`sudo nano /boot/firmware/cmdline.txt`
+
+在最末尾加一个 **空格** 之后添加`usbhid.mousepoll=0`
+
+添加完成后按 <kbd>Ctrl+O</kbd> 后再按 <kbd>Enter</kbd> 键完成保存，之后按 <kbd>Ctrl+X</kbd> 退出编辑。
 
 ## 软件库补充
 
