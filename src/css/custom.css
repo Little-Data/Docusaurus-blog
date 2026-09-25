@@ -497,3 +497,46 @@ span.heimu:hover a.extiw:visited {
     purple
   );
 }
+
+/* ============================================
+   Twikoo 评论系统（CDN 引入）
+   ============================================ */
+.twikoo {
+  color: var(--ifm-font-color-base);
+}
+
+/* 链接与强调色跟随站点主题 */
+.twikoo .tk-action-link,
+.twikoo .tk-button--text,
+.twikoo .tk-sort-item.__active,
+.twikoo .tk-nick-link:hover {
+  color: var(--ifm-color-primary);
+}
+
+.twikoo .tk-button--primary {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.twikoo .tk-button--primary:not(.is-disabled):hover,
+.twikoo .tk-button--primary:not(.is-disabled):focus {
+  background: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+.twikoo .tk-pagination-pager.__current {
+  background-color: var(--ifm-color-primary);
+}
+
+/* 深色模式下微调 */
+[data-theme='dark'] .twikoo .tk-button {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .twikoo .tk-expand:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme='dark'] .twikoo .tk-expand:active {
+  background-color: rgba(255, 255, 255, 0.12);
+}
