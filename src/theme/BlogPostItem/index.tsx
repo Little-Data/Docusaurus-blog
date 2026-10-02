@@ -10,7 +10,7 @@ import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
  *
  */
 const TWIKOO_ENV_ID = 'https://tallk.little-data.top';
-const TWIKOO_CDN = 'https://registry.npmmirror.com/twikoo/2.0.9/files/dist/twikoo.min.js';
+const TWIKOO_CDN = 'https://registry.npmmirror.com/twikoo/2.0.12/files/dist/twikoo.min.js';
 const TWIKOO_SCRIPT_ID = 'twikoo-cdn-script';
 
 /**
